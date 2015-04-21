@@ -20,34 +20,15 @@
 
     <parent>
         <groupId>org.codice.testify</groupId>
-        <artifactId>testify-parent</artifactId>
-        <version>0.0.1</version>
+        <artifactId>actions</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
 
     <groupId>org.codice.testify.actions</groupId>
     <artifactId>generatenonceaction</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Generate Nonce Action</name>
     <description>Testify Action to generate a nonce value</description>
-
-    <scm>
-        <connection>scm:git:https://github.com/testify/GenerateNonceAction.git</connection>
-        <developerConnection>scm:git:https://github.com/testify/GenerateNonceAction.git</developerConnection>
-        <url>https://github.com/testify/GenerateNonceAction.git</url>
-      <tag>HEAD</tag>
-  </scm>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        
-        <version.compiler.plugin>3.1</version.compiler.plugin>
-
-        <!-- maven-compiler-plugin -->
-        <maven.compiler.target>1.7</maven.compiler.target>
-        <maven.compiler.source>1.7</maven.compiler.source>
-
-    </properties>
 
     <dependencies>
         <dependency>

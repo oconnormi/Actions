@@ -23,12 +23,11 @@
     <parent>
         <groupId>org.codice.testify.actions</groupId>
         <artifactId>BayeuxClientActions</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
 
     <groupId>org.codice.testify.actions.BayeuxClientActions</groupId>
     <artifactId>StartBayeuxClient</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <name>Testify Bayeux Client Start Action</name>

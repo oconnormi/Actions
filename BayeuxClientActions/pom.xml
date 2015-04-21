@@ -22,23 +22,16 @@
 
     <parent>
         <groupId>org.codice.testify</groupId>
-        <artifactId>testify-parent</artifactId>
-        <version>0.0.1</version>
+        <artifactId>actions</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
 
     <groupId>org.codice.testify.actions</groupId>
     <artifactId>BayeuxClientActions</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Testify Bayeux Client Actions</name>
     <description>Bayeux Client Actions for Testify</description>
-
-    <scm>
-        <connection>scm:git:https://github.com/testify/BayeuxClientActions.git</connection>
-        <developerConnection>scm:git:https://github.com/testify/BayeuxClientActions.git</developerConnection>
-        <url>https://github.com/testify/BayeuxClientActions.git</url>
-    </scm>
 
     <modules>
         <module>StartBayeuxClient</module>
