@@ -56,6 +56,7 @@
         <module>GenerateUUIDAction</module>
         <module>StoreResponsePropertyAction</module>
         <module>WaitAction</module>
+        <module>JettyServerAction</module>
     </modules>
 
 </project>
